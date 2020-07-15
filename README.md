@@ -63,6 +63,22 @@ sudo yum install git
 
 For Windows, the official build is available for you to download through the Git website. Clicking <a href="https://git-scm.com/download/win">here</a> will cause the download to start automatically.
 
+# Create your local Git repository
+In your computer, create a folder for your project. Let’s call the project folder `simple-git-demo`.
+Go into your project folder and add a local Git repository to the project using the following commands:
+
+``` diff
++ cd simple-git-demo
+- git init
+```
+
+
+
+
+
+
+
+
 
 
 
