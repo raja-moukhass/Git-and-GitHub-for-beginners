@@ -68,11 +68,74 @@ In your computer, create a folder for your project. Let’s call the project fol
 Go into your project folder and add a local Git repository to the project using the following commands:
 
 ``` diff
-- cd simple-git-demo
-- git init
+$ mkdir raja-git
+$ cd raja-git
+$ git init
+```
+### Let’s Add some Small Code now
+- Create a file called raja.txt in the project folder and add the following text into it:
+``` diff
++ initial content 
+```
+# Staging and Committing the code
+
+Committing is the process in which the code is added to the local repository. Before committing the code, it has to be in the staging area. The staging area is there to keep track of all the files which are to be committed.
+Any file which is not added to the staging area will not be committed. This gives the developer control over which files need to be committed.
+### Staging
+- Use the following command for staging the file:
+```
+git add raja.txt
+```
+In case you want to add multiple files you can use:
+``` diff
++ git add file1 file2 file3
 ```
 
+If you want to add all the files inside your project folder to the staging area, use the following command:
 
+```diff
+$ git add .
+- or
+$ git add *
+- or
+$ git add -A
+- or 
+$ git add -all
+```
+### commiting
+“Initial Commit” is the commit message here. Enter a relevant commit message to indicate what code changes were done in that particular commit.
+```
+git commit -m "Initial commit"
+```
+### status 
+
+Use `git status` to find out information regarding what files are modified and what files are there in the staging area — it shows other information as well, which we can ignore for now.
+
+- Use the following command to see the status:
+```
+git status
+```
+The status shows that demo.txt is modified and is not yet in the staging area.
+
+Now let us add demo.txt to the staging area and commit it using the following commands:
+
+```
+$ git add demo.txt 
+$ git commit -m "demo.txt file is modified"
+```
+
+### Log
+use `git log`  to print out all the commits which have been done up until now.
+the command used for this is .
+
+```
+git log
+```
+The log shows the author of each commit, the date of the commit, and the commit message.
+
+# branches
+
+### what is a branch 
 
 
 
