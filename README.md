@@ -18,9 +18,23 @@
  - `Why a Version Control System like Git is needed`: Real life projects generally have multiple developers working in parallel. So a version control system like Git is needed to ensure there are no code conflicts between the developers.
 Additionally, the requirements in such projects change often. So a version control system allows developers to revert and go back to an older version of the code.
 Finally, sometimes several projects which are being run in parallel involve the same codebase. In such a case, the concept of branching in Git is very important.
+# video
+In this <a href="https://www.youtube.com/watch?v=uUuTYDg9XoI">video</a>  we introduce you to git and github and how it can help you collaborate on software development projects effectively.
+
+ 
+ In this <a href="https://www.youtube.com/watch?v=OdbBmvfThJY">video</a> we will see :
+- What is git why to use it
+- Why do we need a version control system
+- What is Centralised Version Control System
+- What is Distributed Version Control System
+- What is Trunk Based Development.
+
+ In this first <a href="https://www.youtube.com/watch?v=BCQHnlnPusY">video</a> of Git and GitHub for Poets, we go over the concepts of commits and repositories as well as an overview of the GitHub User Interface
+
+
 # get started -installing Git
 - Install Git on Mac OS X
-there are several ways to install on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter 
+there are several ways to install on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter
 ```
 $ git --version
 ```
@@ -44,6 +58,7 @@ if you have an older version of fedora you can use the yum
 sudo yum update
 sudo yum install git
 ```
+
 - Installing Git on Windows.
 
 For Windows, the official build is available for you to download through the Git website. Clicking <a href="https://git-scm.com/download/win">here</a> will cause the download to start automatically.
