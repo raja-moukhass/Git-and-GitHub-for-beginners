@@ -68,7 +68,7 @@ In your computer, create a folder for your project. Let’s call the project fol
 Go into your project folder and add a local Git repository to the project using the following commands:
 
 ``` diff
-+ cd simple-git-demo
+- cd simple-git-demo
 - git init
 ```
 
