@@ -13,10 +13,10 @@
  
  - `Version Control System`: The code which is stored in Git keeps changing as more code is added. Also, many developers can add code in parallel. So Version Control System helps in handling this by maintaining a history of what changes have happened. Also, Git provides features like branches and merges, which I will be covering later.
  
- `Distributed Version Control System`: Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer. I will explain the concept of remote and local repositories later in this article.
+ - `Distributed Version Control System`: Git has a remote repository which is stored in a server and a local repository which is stored in the computer of each developer This means that the code is not just stored in a central server, but the full copy of the code is present in all the developers’ computers. Git is a Distributed Version Control System since the code is present in every developer’s computer. I will explain the concept of remote and local repositories later in this article.
  
-  `Why a Version Control System like Git is needed`
- Real life projects generally have multiple developers working in parallel. So a version control system like Git is needed to ensure there are no code conflicts between the developers.
+ -`Why a Version Control System like Git is needed`
+Real life projects generally have multiple developers working in parallel. So a version control system like Git is needed to ensure there are no code conflicts between the developers.
 
 Additionally, the requirements in such projects change often. So a version control system allows developers to revert and go back to an older version of the code.
 
