@@ -68,8 +68,8 @@ In your computer, create a folder for your project. Let’s call the project fol
 Go into your project folder and add a local Git repository to the project using the following commands:
 
 ``` diff
-$ mkdir raja-git
-$ cd raja-git
+$ mkdir raja_git
+$ cd raja_git
 $ git init
 ```
 ### Let’s Add some Small Code now
