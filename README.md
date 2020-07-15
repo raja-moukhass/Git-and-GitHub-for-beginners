@@ -36,12 +36,12 @@ In this <a href="https://www.youtube.com/watch?v=uUuTYDg9XoI">video</a>  we intr
 - Install Git on Mac OS X
 there are several ways to install on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter
 ```
-$ git --version
+git --version
 ```
 - install git on Linux (debian/Ubuntu)
 ```
-$ sudo apt-get update
-$ sudo apt-get install git
+sudo apt-get update
+sudo apt-get install git
 ```
 - Installing Git on CentOS
 ```
@@ -62,6 +62,7 @@ sudo yum install git
 - Installing Git on Windows.
 
 For Windows, the official build is available for you to download through the Git website. Clicking <a href="https://git-scm.com/download/win">here</a> will cause the download to start automatically.
+
 
 
 
