@@ -7,7 +7,7 @@
 [![GitHub Issues](https://img.shields.io/github/issues/anfederico/Clairvoyant.svg)](https://github.com/anfederico/Clairvoyant/issues)
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-orange.svg)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-# Introduction to git 
+# Introduction to git
 ### git is an Open Source Distributed Version Control System now that's a lot of words to define Git.
  - `Control System`: This basically means that Git is a content tracker. So Git can be used to store content — it is mostly used to store code due to the other features it provides
  
